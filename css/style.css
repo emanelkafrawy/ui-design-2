@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:100%;
+    height: 100%;
+    background-image: url('../images/photo-1549849171-09f62448709e.png')  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+
+.navbar .ul {
+    list-style-type:none ;
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+}
+.list {
+    float: right;
+    display: inline;
+    margin-right: 10px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.link.active{
+    background-color: darkorange;
+    border: 1px solid darkorange;
+    box-shadow: 3px 5px 10px 3px rgba(0,0,0,0.2);
+    /* transition: all 0s ease 0s; */
+    border-radius: 5px;
+    padding: 8px;
+}
+
+article {
+    margin-top: 150px;
+}
+
+.sections {
+    text-align: center;
+    width: 770px;
+    margin: auto;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.search {
+    width: 900px;
+    height: 45px;
+    margin-top:30px;
+    text-align: auto;
+    position: relative;
+    border: 1px solid #a2aabb;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    box-shadow: 3px 5px 10px 3px rgba(0,0,0,0.2);
+
+}
+
+.Search_input {
+    border: none;
+    width: 740px;
+    height: 51px;
+    margin-left: 50px;
+    opacity: 0.6;
+    background-color: #a2aabb;
+}
+
+input::placeholder{
+    color: white;
+    left: 50px !important;
+    font-size: 17px;
+
+}
+
+.image{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius:5px 0px 0px 5px; 
+    opacity: 0.6;
+}
+
+span {
+    background-color: #2763ac;
+    padding: 12px 34px 17px 29px;
+    border-radius: 0 5px 5px  0;
+    text-shadow: 3px 5px 10px 3px rgba(0,0,0,0.2);
+    display: inline;
+    cursor: pointer;
+    margin-left: -5px;
+}
+
+
